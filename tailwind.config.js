@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         accent: "#E58411",
+        input: "rgba(255, 255, 255, 0.15)",
       },
     },
   },

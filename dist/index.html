@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webpack App</title>
   </head>
-  <body class="bg-black">
-    <header class="py-10">
+  <body class="bg-white">
+    <header class="py-10 fixed top-0 inset-x-0">
       <div class="w-[1280px] mx-auto flex justify-between items-center">
         <div class="">
           <a href="" class="text-white font-bold text-[28px]">Panto</a>
@@ -45,10 +45,44 @@
           </ul>
         </div>
         <div>
-          <button>card</button>
+          <button>
+            <svg width="34px" height="34px" class="fill-white">
+              <use href="./img/symbol-defs.svg#icon-Bag"></use>
+            </svg>
+          </button>
         </div>
       </div>
     </header>
+    <div
+      class="bg-[url('./img/img/headerhero.jpg')] pt-40 pb-[524px] bg-center bg-no-repeat bg-cover"
+    >
+      <div class="w-[1280px] mx-auto">
+        <div
+          class="text-white font-bold text-[80px] text-center leading-[104px] -tracking-[.8px] capitalize"
+        >
+          Make your interior more minimalistic & modern
+        </div>
+        <div
+          class="text-white font-extralight text-2xl text-center leading-[38.4px] top-[14px]"
+        >
+          Turn your room with panto into a lot more minimalist and modern with
+          ease and speed
+        </div>
+        <div class="mt-[45px] w-[344px] mx-auto relative">
+          <input
+            type="text"
+            placeholder="Search furniture"
+            class="rounded-[42px] bg-input w-full"
+          />
+          <button class="absolute top-2 right-2">
+            <svg width="18px" height="18px">
+              <use href="./img/symbol-defs.svg#icon-search"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="bundle.js"></script>
   </body>
 </html>
