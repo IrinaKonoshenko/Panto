@@ -75,9 +75,15 @@
             class="rounded-[42px] bg-input w-full px-5 py-[15px] text-white placeholder:text-white placeholder:text-lg placeholder:opacity-[.8] placeholder:leading-7"
           />
           <button
-            class="absolute top-2 right-2 bg-accent rounded-[50%] p-[11px]"
+            class="absolute top-2 right-2 bg-accent w-10 h-10 rounded-3xl flex items-center justify-center"
           >
-            <img src="./img/icon/search.svg" alt="" />
+            <svg
+              width="18px"
+              height="18px"
+              class="stroke-white fill-transparent"
+            >
+              <use href="./img/symbol-defs.svg#icon-search"></use>
+            </svg>
           </button>
         </div>
       </div>
@@ -147,101 +153,734 @@
       </div>
     </div>
     <div class="bg-gray100 py-[50px]">
-      <div class="w-[1280px] mx-auto">
-        <h3>Best Selling Product</h3>
-        <ul>
-          <li>Chair</li>
-          <li>Beds</li>
-          <li>Sofa</li>
-          <li>Lamp</li>
+      <div class="w-[1200px] mx-auto">
+        <h3
+          class="text-black100 font-bold text-[42px] leading-normal text-center"
+        >
+          Best Selling Product
+        </h3>
+        <ul
+          class="bg-gray200 rounded-[44px] p-[6px] flex justify-center items-center gap-[10px] w-[348px] m-auto mt-8"
+        >
+          <li class="bg-white px-[19px] py-[7px] rounded-[32px]">Chair</li>
+          <li class="bg-gray200 px-[19px] py-[7px] rounded-[32px]">Beds</li>
+          <li class="bg-gray200 px-[19px] py-[7px] rounded-[32px]">Sofa</li>
+          <li class="bg-gray200 px-[19px] py-[7px] rounded-[32px]">Lamp</li>
         </ul>
-        <button>
-          <img src="./img/icon/black-arrow-left.svg" alt="" />
-        </button>
-        <button>
-          <img src="./img/icon/black-arrow-right.svg" alt="" />
-        </button>
-        <ul>
-          <li>
-            <div>
-              <img src="./img/img/armchair-one.jpg" alt="" />
-            </div>
-            <p></p>
-            <p></p>
-            <svg>
-              <use></use>
-              <use></use>
-              <use></use>
-              <use></use>
-              <use></use>
-            </svg>
-            <p></p>
-            <svg>
-              <use></use>
-            </svg>
-          </li>
-          <li>
-            <div>
-              <img src="./img/img/armchair-two.jpg" alt="" />
-            </div>
-            <p></p>
-            <p></p>
-            <svg>
-              <use></use>
-              <use></use>
-              <use></use>
-              <use></use>
-              <use></use>
-            </svg>
-            <p></p>
-            <svg>
-              <use></use>
-            </svg>
-          </li>
-          <li>
-            <div>
-              <img src="./img/img/armchair-three.jpg" alt="" />
-            </div>
-            <p></p>
-            <p></p>
-            <svg>
-              <use></use>
-              <use></use>
-              <use></use>
-              <use></use>
-              <use></use>
-            </svg>
-            <p></p>
-            <svg>
-              <use></use>
-            </svg>
-          </li>
-          <li>
-            <div>
-              <img src="./img/img/armchair-four.jpg" alt="" />
-            </div>
-            <p></p>
-            <p></p>
-            <svg>
-              <use></use>
-              <use></use>
-              <use></use>
-              <use></use>
-              <use></use>
-            </svg>
-            <p></p>
-            <svg>
-              <use></use>
-            </svg>
-          </li>
-        </ul>
-        <button>
+        <div class="relative mt-20">
+          <div
+            class="absolute top-1/2 -left-6 -right-6 -translate-y-6 flex justify-between z-10"
+          >
+            <button
+              class="shadow-md bg-white rounded-full w-[50px] h-[50px] flex items-center justify-center"
+            >
+              <img src="./img/icon/black-arrow-left.svg" alt="" />
+            </button>
+            <button
+              class="shadow-md bg-white rounded-full w-[50px] h-[50px] flex items-center justify-center"
+            >
+              <img src="./img/icon/black-arrow-right.svg" alt="" />
+            </button>
+          </div>
+          <ul class="flex gap-[42px]">
+            <li class="bg-white rounded-[20px] w-[268px]">
+              <div class="bg-grey500 relative px-6 h-60 rounded-t-[20px]">
+                <img
+                  src="./img/img/armchair-one.jpg"
+                  class="-translate-y-8"
+                  alt=""
+                />
+              </div>
+              <div class="px-[21px] pt-[13px] pb-[27px]">
+                <p class="text-gray300">Chair</p>
+                <p
+                  class="mt-[6px] text-black200 text-[21px] font-semibold leading-normal capitalize"
+                >
+                  Sakarias Armchair
+                </p>
+                <ul class="flex gap-[3px] mt-[6px]">
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <div class="flex justify-between items-center gap-2 mt-[48px]">
+                  <p
+                    class="text-black200 font-semibold leading-normal text-[21px]"
+                  >
+                    <sup>$</sup> 392
+                  </p>
+                  <div
+                    class="w-12 h-12 flex items-center justify-center rounded-3xl bg-dark-black"
+                  >
+                    <svg
+                      width="24px"
+                      height="24px"
+                      class="fill-white stroke-white"
+                    >
+                      <use href="./img/symbol-defs.svg#icon-plus"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="bg-white rounded-[20px] w-[268px]">
+              <div class="bg-grey500 relative px-6 h-60 rounded-t-[20px]">
+                <img
+                  src="./img/img/armchair-two.jpg"
+                  class="-translate-y-8"
+                  alt=""
+                />
+              </div>
+              <div class="px-[21px] pt-[13px] pb-[27px]">
+                <p class="text-gray300">Chair</p>
+                <p
+                  class="mt-[6px] text-black200 text-[21px] font-semibold leading-normal capitalize"
+                >
+                  Baltsar Chair
+                </p>
+                <ul class="flex gap-[3px] mt-[6px]">
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <div class="flex justify-between items-center gap-2 mt-[48px]">
+                  <p
+                    class="text-black200 font-semibold leading-normal text-[21px]"
+                  >
+                    <sup>$</sup> 299
+                  </p>
+                  <div
+                    class="w-12 h-12 flex items-center justify-center rounded-3xl bg-dark-black"
+                  >
+                    <svg
+                      width="24px"
+                      height="24px"
+                      class="fill-white stroke-white"
+                    >
+                      <use href="./img/symbol-defs.svg#icon-plus"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="bg-white rounded-[20px] w-[268px]">
+              <div class="bg-grey500 relative px-6 h-60 rounded-t-[20px]">
+                <img
+                  src="./img/img/armchair-three.jpg"
+                  class="-translate-y-8"
+                  alt=""
+                />
+              </div>
+              <div class="px-[21px] pt-[13px] pb-[27px]">
+                <p class="text-gray300">Chair</p>
+                <p
+                  class="mt-[6px] text-black200 text-[21px] font-semibold leading-normal capitalize"
+                >
+                  Anjay Chair
+                </p>
+                <ul class="flex gap-[3px] mt-[6px]">
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <div class="flex justify-between items-center gap-2 mt-[48px]">
+                  <p
+                    class="text-black200 font-semibold leading-normal text-[21px]"
+                  >
+                    <sup>$</sup> 519
+                  </p>
+                  <div
+                    class="w-12 h-12 flex items-center justify-center rounded-3xl bg-dark-black"
+                  >
+                    <svg
+                      width="24px"
+                      height="24px"
+                      class="fill-white stroke-white"
+                    >
+                      <use href="./img/symbol-defs.svg#icon-plus"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="bg-white rounded-[20px] w-[268px]">
+              <div class="bg-grey500 relative px-6 h-60 rounded-t-[20px]">
+                <img
+                  src="./img/img/armchair-four.jpg"
+                  class="-translate-y-8"
+                  alt=""
+                />
+              </div>
+              <div class="px-[21px] pt-[13px] pb-[27px]">
+                <p class="text-gray300">Chair</p>
+                <p
+                  class="mt-[6px] text-black200 text-[21px] font-semibold leading-normal capitalize"
+                >
+                  Nyantuy Chair
+                </p>
+                <ul class="flex gap-[3px] mt-[6px]">
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                  <li>
+                    <svg width="18px" height="18px" class="fill-orange100">
+                      <use href="./img/symbol-defs.svg#icon-Star"></use>
+                    </svg>
+                  </li>
+                </ul>
+                <div class="flex justify-between items-center gap-2 mt-[48px]">
+                  <p
+                    class="text-black200 font-semibold leading-normal text-[21px]"
+                  >
+                    <sup>$</sup> 921
+                  </p>
+                  <div
+                    class="w-12 h-12 flex items-center justify-center rounded-3xl bg-dark-black"
+                  >
+                    <svg
+                      width="24px"
+                      height="24px"
+                      class="fill-white stroke-white"
+                    >
+                      <use href="./img/symbol-defs.svg#icon-plus"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button
+          class="mt-[60px] text-accent text-lg leading-[33.3px] flex gap-3 justify-center items-center m-auto"
+        >
           View All
           <img src="./img/icon/arrow-right.svg" alt="" />
         </button>
       </div>
     </div>
+    <div class="bg-white py-60">
+      <div class="w-[1280px] mx-auto flex gap-[141px]">
+        <div class="relative pl-0">
+          <div
+            class="bg-grey400 w-[495px] h-[421px] absolute -top-[66px] -left-[38px] rounded-[20px]"
+          ></div>
+          <div
+            class="w-[629px] h-[445px] rounded-[20px] overflow-hidden z-50 relative"
+          >
+            <img src="./img/img/sofa.jpg" alt="" />
+          </div>
+          <div
+            class="bg-grey400 w-[495px] h-[301px] absolute -right-[61px] bottom-[72px] rounded-[20px]"
+          ></div>
+        </div>
+        <div>
+          <p
+            class="text-accent font-semibold text-lg leading-normal tracking-[3.15px] uppercase"
+          >
+            experiences
+          </p>
+          <p
+            class="mt-5 text-black100 font-bold text-[42px] capitalize leading-normal"
+          >
+            we provide you the <br />
+            best experience
+          </p>
+          <p class="mt-5 text-black100 text-lg leading-[33.3px] opacity-[.8]">
+            You don’t have to worry about the result because all of these <br />
+            interiors are made by people who are professionals in their fields
+            with an elegant and lucurious style and with premium quality
+            materials
+          </p>
+          <button
+            class="mt-6 text-accent text-sm font-medium leading-[25.9px] flex gap-[13px]"
+          >
+            More Info<img src="./img/icon/arrow-right.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white">
+      <div class="w-[1280px] mx-auto flex gap-[94px]">
+        <div>
+          <p
+            class="text-accent font-semibold text-lg leading-normal tracking-[3.15px] uppercase"
+          >
+            Materials
+          </p>
+          <p
+            class="mt-5 text-black100 font-bold text-[42px] capitalize leading-normal"
+          >
+            Very serious <br />
+            materials for making<br />
+            furniture
+          </p>
+          <p class="mt-5 text-black100 text-lg leading-[33.3px] opacity-[.8]">
+            Because panto was very serious about designing furniture for our
+            <br />
+            environment, using a very expensive and famous capital but at a
+            <br />
+            relatively low price
+          </p>
+          <button
+            class="mt-6 text-accent text-sm font-medium leading-[25.9px] flex gap-[13px]"
+          >
+            More Info<img src="./img/icon/arrow-right.svg" alt="" />
+          </button>
+        </div>
+        <div class="flex gap-[42px]">
+          <div class="flex flex-col gap-[47px]">
+            <div class="w-[223px] h-[229px] overflow-hidden rounded-[14px]">
+              <img src="./img/img/block-one.jpg" alt="" />
+            </div>
+            <div class="w-[223px] h-[317px] overflow-hidden rounded-[14px]">
+              <img src="./img/img/block-two.jpg" alt="" />
+            </div>
+          </div>
+          <div class="relative">
+            <div class="w-[445px] h-[445px] mt-[139px] rounded-[20px] z-10">
+              <img src="./img/img/block-three.jpg" alt="" />
+            </div>
+            <div
+              class="w-[495px] h-[422px] bg-gray100 absolute bottom-[89px] left-[172px] rounded-[20px]"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white pt-[260px] pb-[240px]">
+      <div class="w-[1280px] mx-auto">
+        <p
+          class="text-accent font-semibold text-lg leading-normal tracking-[3.15px] uppercase text-center"
+        >
+          Testimonials
+        </p>
+        <p
+          class="mt-5 text-black100 font-bold text-[42px] capitalize leading-normal text-center"
+        >
+          Our Client Reviews
+        </p>
+        <ul class="mt-[60px] flex gap-[38px] justify-center">
+          <li
+            class="bg-[url('./img/img/list-one.jpg')] bg-no-repeat rounded-[18px] relative w-[370px] flex justify-center pb-[18px]"
+          >
+            <button
+              class="bg-white rounded-[26px] p-3 absolute top-[143px] -left-[25px]"
+            >
+              <img src="./img/icon/black-arrow-left.svg" alt="" />
+            </button>
 
+            <div
+              class="bg-white mt-[252px] flex flex-col items-center w-[334px] h-[206px] relative rounded-[18px] px-[18px] pb-[17px]"
+            >
+              <div
+                class="w-[66px] h-[66px] rounded-[50px] overflow-hidden absolute -top-[33px] flex justify-center items-center bg-white p-2"
+              >
+                <img
+                  src="./img/img/men-one.png"
+                  alt=""
+                  class="w-[50px] h-[50px] rounded-[50px]"
+                />
+              </div>
+              <p
+                class="mt-[38px] text-black100 font-bold text-lg leading-normal capitalize"
+              >
+                Bang Upin
+              </p>
+              <p
+                class="mt-[6px] text-xs leading-normal text-black100 opacity-[.6]"
+              >
+                Pedagang Asongan
+              </p>
+              <p
+                class="mt-[22px] max-w-[252px] text-sm leading-normal text-black100 opacity-[.8] text-center"
+              >
+                “Terimakasih banyak, kini ruanganku menjadi lebih mewah dan
+                terlihat mahal“
+              </p>
+              <ul class="flex gap-[3px] mt-[22px]">
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use
+                      href="./img/symbol-defs.svg#icon-Star-transparent"
+                    ></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li
+            class="bg-[url('./img/img/list-two.jpg')] bg-no-repeat rounded-[18px] relative w-[370px] flex justify-center pb-[18px]"
+          >
+            <div
+              class="bg-white mt-[252px] flex flex-col items-center w-[334px] h-[206px] relative rounded-[18px] px-[18px]"
+            >
+              <div
+                class="w-[66px] h-[66px] rounded-[50px] overflow-hidden absolute -top-[33px] flex justify-center items-center bg-white p-2"
+              >
+                <img
+                  src="./img/img/woman-two.png"
+                  alt=""
+                  class="w-[50px] h-[50px] rounded-[50px]"
+                />
+              </div>
+              <p
+                class="mt-[38px] text-black100 font-bold text-lg leading-normal capitalize"
+              >
+                Ibuk Sukijan
+              </p>
+              <p
+                class="mt-[6px] text-xs leading-normal text-black100 opacity-[.6]"
+              >
+                Ibu Rumah Tangga
+              </p>
+              <p
+                class="mt-[22px] max-w-[252px] text-sm leading-normal text-black100 opacity-[.8] text-center"
+              >
+                “Makasih Panto, aku sekarang berasa tinggal di apartment karena
+                barang- barang yang terlihat mewah“
+              </p>
+              <ul class="flex gap-[3px] mt-[22px] mb-[17px]">
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use
+                      href="./img/symbol-defs.svg#icon-Star-transparent"
+                    ></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li
+            class="bg-[url('./img/img/list-three.jpg')] bg-no-repeat rounded-[18px] relative w-[370px] flex justify-center pb-[18px]"
+          >
+            <button
+              class="bg-white rounded-[26px] p-3 absolute top-[143px] -right-[25px]"
+            >
+              <img src="./img/icon/black-arrow-right.svg" alt="" />
+            </button>
+            <div
+              class="bg-white mt-[252px] flex flex-col items-center w-[334px] h-[206px] relative rounded-[18px] px-[18px]"
+            >
+              <div
+                class="w-[66px] h-[66px] rounded-[50px] overflow-hidden absolute -top-[33px] flex justify-center items-center bg-white p-2"
+              >
+                <img
+                  src="./img/img/woman-three.png"
+                  alt=""
+                  class="w-[50px] h-[50px] rounded-[50px]"
+                />
+              </div>
+              <p
+                class="mt-[38px] text-black100 font-bold text-lg leading-normal capitalize"
+              >
+                Mpok Ina
+              </p>
+              <p
+                class="mt-[6px] text-xs leading-normal text-black100 opacity-[.6]"
+              >
+                Karyawan Swasta
+              </p>
+              <p
+                class="mt-[22px] max-w-[252px] text-sm leading-normal text-black100 opacity-[.8] text-center"
+              >
+                “Sangat terjangkau untuk kantong saya yang tidak terlalu banyak“
+              </p>
+              <ul class="flex gap-[3px] mt-[22px]">
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use href="./img/symbol-defs.svg#icon-Star"></use>
+                  </svg>
+                </li>
+                <li>
+                  <svg width="14px" height="14px" class="fill-orange100">
+                    <use
+                      href="./img/symbol-defs.svg#icon-Star-transparent"
+                    ></use>
+                  </svg>
+                </li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer class="bg-gray100 pt-[118px] pb-[58px] px-[188px]">
+      <div class="w-[1280px] mx-auto">
+        <div class="flex gap-[152px]">
+          <div>
+            <div class="">
+              <a
+                href=""
+                class="text-black font-bold text-[28px] tracking-[.28px] capitalize"
+                >Panto</a
+              >
+            </div>
+            <div
+              class="w-[293px] mt-[29px] text-black100 text-[15px] leading-[24px] opacity-[.8]"
+            >
+              The advantage of hiring a workspace with us is that givees you
+              comfortable service and all-around facilities.
+            </div>
+          </div>
+          <div class="flex gap-[110px]">
+            <div class="flex flex-col gap-5">
+              <p
+                class="text-orange200 text-[17px] leading-normal -tracking-[.232px]"
+              >
+                Services
+              </p>
+              <ul class="flex flex-col gap-4">
+                <li>
+                  <a
+                    href=""
+                    class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >Email Marketing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >Campaigns</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >Branding</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-5">
+              <p
+                class="text-orange200 text-[17px] leading-normal -tracking-[.232px]"
+              >
+                Furniture
+              </p>
+              <ul class="flex flex-col gap-4">
+                <li>
+                  <a
+                    href=""
+                    class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >Beds</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >Chair</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href=""
+                    class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >All</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="flex flex-col gap-5">
+              <p
+                class="text-orange200 text-[17px] leading-normal -tracking-[.232px]"
+              >
+                Follow Us
+              </p>
+              <ul class="flex flex-col gap-4">
+                <li>
+                  <a href="" class="flex gap-4 items-center">
+                    <svg width="10px" height="20px" class="fill-black400">
+                      <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                    </svg>
+                    <p
+                      class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >
+                      Facebook
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="flex gap-4 items-center">
+                    <svg width="20px" height="16px" class="fill-black400">
+                      <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                    </svg>
+                    <p
+                      class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >
+                      Twitter
+                    </p>
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="flex gap-4 items-center">
+                    <svg width="20px" height="20px" class="fill-black400">
+                      <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                    <p
+                      class="text-black300 text-[15px] leading-6 font-medium opacity-[.8]"
+                    >
+                      Instagram
+                    </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="flex gap-[609px] mt-[118px]">
+          <div
+            class="text-black300 text-[15px] opacity-[.5] leading-normal -tracking-[.205px]"
+          >
+            Copyright © 2021
+          </div>
+          <div class="flex gap-10">
+            <div>Terms & Conditions</div>
+            <div>Privacy Policy</div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="bundle.js"></script>
   </body>
 </html>
