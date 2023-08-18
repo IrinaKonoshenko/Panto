@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header {
+  @apply py-10;
+}
+.header__fixed {
+  @apply py-5 bg-header;
+}
